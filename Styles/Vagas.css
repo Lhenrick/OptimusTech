@@ -1,0 +1,120 @@
+
+.vagas__espaço {
+    margin: 96px 0;
+}
+
+.vagas__subtitulo {
+    display: flex;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 0 16px 0;
+    width: auto 125px;
+    height: auto 28px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background: var(--cor-fundo-subtitulo);
+}
+
+.vagas__titulo {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 0 0 20px 0;
+    width: 768px;
+    height: 44px;
+    letter-spacing:-0.72px;
+    
+}
+
+.vagas__texto {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0 64px 0;
+    width: 768px;
+    height: 30px;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 80px;
+    padding-top: 96px;
+}
+
+.vagas__apresentação{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 80px 60px 80px;
+    padding: 0;
+
+}
+.vagas__texto__superior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fixed 768px;
+    height: auto 138px;
+    margin: 0 32px;
+    padding: 0 224px;
+}
+
+.jobs__categoria {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs__categoria-nome {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    color: var(--cor-titulo);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.jobs__titulo {
+    margin: 0 0 16px 0;
+    font-family: var(--fonte-principal);
+    color: var(--cor-titulo);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.jobs__informação{
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 16px 0 0 0;
+}
+
+.jobs__caixa {
+    border: 1px solid var(--cor-vagas-borda);
+    border-radius: 16px;
+    background: var(--cor-fundo-vagas);
+    width: 768px;
+    height: Auto 136px;
+    text-align: left;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 24px;
+}
+
+.jobs__informação-salario {
+    display: flex;
+    gap: 24px;
+}

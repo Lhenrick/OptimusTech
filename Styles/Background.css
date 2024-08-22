@@ -1,0 +1,7 @@
+
+.body {
+    background-color: var(--cor-fundo);
+}
+.formulário{ 
+    background-color: var(--cor-fundo-footer);
+}

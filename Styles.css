@@ -1,0 +1,26 @@
+@import url(./Styles/Apresentacao.css);
+@import url(./Styles/Background.css);
+@import url(./Styles/depoimento.css);
+@import url(./Styles/Footer.css);
+@import url(./Styles/Header.css);
+@import url(./Styles/Metricas.css);
+@import url(./Styles/Vagas.css);
+
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-principal: #a4161a;
+    --cor-texto: #6b0504;
+    --cor-titulo: #424c55;
+    --cor-fundo: #fafafa;
+    --cor-fundo-vagas: #B3DEC1;
+    --cor-fundo-depoimentos:#B3DEC1;
+    --cor-fundo-footer:#B3DEC1;
+    --cor-vagas-borda:#ffffff;
+    --cor-texto-botão: #ffffff;
+    --cor-fundo-subtitulo:#B3DEC1;
+}
+
+.body {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+}
